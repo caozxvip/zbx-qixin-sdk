@@ -56,6 +56,7 @@ public class OtherInfo
     private String backPayName;
     private Integer backPayBank;
     private String backPayBankName;
+    private Integer autoCapturePrem;
     
     public String getPolicyPassword() {
         return this.policyPassword;
@@ -471,5 +472,13 @@ public class OtherInfo
     
     public void setLoanCompany(final String loanCompany) {
         this.loanCompany = loanCompany;
+    }
+
+    public Integer getAutoCapturePrem() {
+        return autoCapturePrem;
+    }
+
+    public void setAutoCapturePrem(Integer autoCapturePrem) {
+        this.autoCapturePrem = autoCapturePrem;
     }
 }
