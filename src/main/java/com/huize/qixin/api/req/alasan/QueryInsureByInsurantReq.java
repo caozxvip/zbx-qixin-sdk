@@ -1,6 +1,6 @@
 package com.huize.qixin.api.req.alasan;
 
-import com.huize.qixin.api.req.*;
+import com.huize.qixin.api.req.BaseReq;
 
 public class QueryInsureByInsurantReq extends BaseReq
 {

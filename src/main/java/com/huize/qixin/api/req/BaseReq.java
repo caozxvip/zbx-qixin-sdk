@@ -1,6 +1,6 @@
 package com.huize.qixin.api.req;
 
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.ApiPartnerVo;
 
 public abstract class BaseReq extends CoreBaseReq
 {

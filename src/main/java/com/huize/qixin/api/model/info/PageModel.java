@@ -1,6 +1,6 @@
 package com.huize.qixin.api.model.info;
 
-import java.util.*;
+import java.util.List;
 
 public class PageModel<T>
 {

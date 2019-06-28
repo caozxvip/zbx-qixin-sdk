@@ -1,6 +1,6 @@
 package com.huize.qixin.api.util;
 
-import java.util.*;
+import java.util.Collection;
 
 public class CollectionUtils
 {

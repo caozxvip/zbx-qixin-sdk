@@ -1,9 +1,17 @@
 package com.huize.qixin.api.resp.product;
 
-import com.huize.qixin.api.resp.*;
-import com.fasterxml.jackson.annotation.*;
-import java.util.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.ProductProvision;
+import com.huize.qixin.api.model.info.Flow;
+import com.huize.qixin.api.model.info.ProductFeature;
+import com.huize.qixin.api.model.info.Promise;
+import com.huize.qixin.api.model.info.DroitVo;
+import com.huize.qixin.api.model.info.Faq;
+import com.huize.qixin.api.model.info.RestrictGene;
+import com.huize.qixin.api.model.info.ProtectItem;
+import java.util.List;
+import com.huize.qixin.api.model.info.ProductFee;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.huize.qixin.api.resp.BaseResp;
 
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class ProductDetailResp extends BaseResp

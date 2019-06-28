@@ -1,8 +1,10 @@
 package com.huize.qixin.api.req.insure;
 
-import com.huize.qixin.api.req.*;
-import java.util.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.OtherInfo;
+import com.huize.qixin.api.model.info.Insurant;
+import java.util.List;
+import com.huize.qixin.api.model.info.Applicant;
+import com.huize.qixin.api.req.BaseReq;
 
 public class InsureReq extends BaseReq
 {

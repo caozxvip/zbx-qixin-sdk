@@ -1,11 +1,13 @@
 package com.qixin.openapi.client.common;
 
-import java.lang.reflect.*;
-import com.qixin.openapi.model.common.*;
-import com.qixin.openapi.conf.*;
-import com.huize.qixin.api.util.*;
-import com.qixin.openapi.util.*;
-import com.fasterxml.jackson.databind.*;
+import com.fasterxml.jackson.databind.JavaType;
+import com.qixin.openapi.util.Md5Utils;
+import com.huize.qixin.api.util.HttpUtil;
+import com.qixin.openapi.conf.Configure;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.qixin.openapi.model.common.CommonResult;
+import java.lang.reflect.Type;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class RemoteInvoker
 {
@@ -16,13 +18,13 @@ public class RemoteInvoker
         String qxUrl = Configure.Request.baseUrl + api;
         try {
             String requestBody = RemoteInvoker.objectMapper.writeValueAsString(obj);
-            System.out.println("\u8bf7\u6c42\u53c2\u6570\uff1a" + requestBody);
+            System.out.println("请求参数：" + requestBody);
             requestBody = new String(requestBody.getBytes("UTF-8"), "UTF-8");
             qxUrl = sign(qxUrl, requestBody);
-            System.out.println("\u8bf7\u6c42url\u4e3a\uff1a" + qxUrl);
+            System.out.println("请求url为：" + qxUrl);
             final String httpResult = HttpUtil.post(qxUrl, requestBody);
             if (httpResult.equals("error")) {
-                throw new RuntimeException("\u8c03\u7528\u670d\u52a1\u5931\u8d25");
+                throw new RuntimeException("调用服务失败");
             }
             final CommonResult<T> res = (CommonResult<T>)RemoteInvoker.objectMapper.readValue(httpResult.toString(), getResponseType(returnType));
             return res;
@@ -34,7 +36,7 @@ public class RemoteInvoker
     
     private static String sign(String api, String body) {
         if (Configure.Channel.channelKey == null) {
-            throw new RuntimeException("\u8bf7\u5148\u914d\u7f6e\u6e20\u9053\u5bc6\u94a5:" + Configure.Channel.class + "#channelKey");
+            throw new RuntimeException("请先配置渠道密钥:" + Configure.Channel.class + "#channelKey");
         }
         body = Configure.Channel.channelKey + body;
         final String sign = Md5Utils.getUtf8MD5String(body);

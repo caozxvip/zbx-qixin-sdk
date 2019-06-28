@@ -1,6 +1,6 @@
 package com.huize.qixin.api.resp.trial;
 
-import com.huize.qixin.api.resp.*;
+import com.huize.qixin.api.resp.BaseResp;
 
 public class SimpleTrialResp extends BaseResp
 {

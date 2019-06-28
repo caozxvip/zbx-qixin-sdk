@@ -1,8 +1,8 @@
 package com.huize.qixin.api.resp.renewal;
 
-import com.huize.qixin.api.resp.*;
-import java.util.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.RenewalInsure;
+import java.util.List;
+import com.huize.qixin.api.resp.BaseResp;
 
 public class RenewalInsuresResp extends BaseResp
 {

@@ -1,7 +1,7 @@
 package com.huize.qixin.api.resp.order;
 
-import com.huize.qixin.api.resp.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.InsureDetail;
+import com.huize.qixin.api.resp.BaseResp;
 
 public class InsureDetailResp extends BaseResp
 {

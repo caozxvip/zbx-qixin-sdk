@@ -1,7 +1,10 @@
 package com.huize.qixin.api.util;
 
-import java.text.*;
-import java.util.*;
+import java.util.HashMap;
+import java.text.ParseException;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+import java.util.Map;
 
 public class DateUtil
 {

@@ -1,9 +1,14 @@
 package com.huize.qixin.api.resp.audit;
 
-import com.huize.qixin.api.resp.*;
-import com.fasterxml.jackson.annotation.*;
-import java.util.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.AuditRemark;
+import com.huize.qixin.api.model.info.FileInfo;
+import com.huize.qixin.api.model.info.MaterialItem;
+import java.util.List;
+import com.huize.qixin.api.model.info.TrailPremiumParam;
+import com.huize.qixin.api.model.info.Insurant;
+import com.huize.qixin.api.model.info.Applicant;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.huize.qixin.api.resp.BaseResp;
 
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class AuditOrderInfoResp extends BaseResp

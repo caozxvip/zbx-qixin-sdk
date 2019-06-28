@@ -1,6 +1,6 @@
 package com.huize.qixin.api.resp.product;
 
-import com.huize.qixin.api.resp.*;
+import com.huize.qixin.api.resp.BaseResp;
 
 public class PartnerCpsInfoResp extends BaseResp
 {

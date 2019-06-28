@@ -1,6 +1,6 @@
 package com.huize.qixin.api.model.info;
 
-import java.io.*;
+import java.io.Serializable;
 
 public class AreaInfo implements Serializable
 {

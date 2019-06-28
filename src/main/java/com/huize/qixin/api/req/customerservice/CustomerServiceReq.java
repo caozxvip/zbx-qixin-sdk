@@ -1,6 +1,6 @@
 package com.huize.qixin.api.req.customerservice;
 
-import com.huize.qixin.api.req.*;
+import com.huize.qixin.api.req.BaseReq;
 
 public class CustomerServiceReq extends BaseReq
 {

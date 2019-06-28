@@ -1,7 +1,7 @@
 package com.huize.qixin.api.model.info;
 
-import java.io.*;
-import com.fasterxml.jackson.annotation.*;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import java.io.Serializable;
 
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class GeneParam implements Serializable

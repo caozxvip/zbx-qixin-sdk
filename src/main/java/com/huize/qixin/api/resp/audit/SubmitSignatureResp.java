@@ -1,7 +1,7 @@
 package com.huize.qixin.api.resp.audit;
 
-import com.huize.qixin.api.resp.*;
-import com.fasterxml.jackson.annotation.*;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.huize.qixin.api.resp.BaseResp;
 
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class SubmitSignatureResp extends BaseResp

@@ -1,7 +1,7 @@
 package com.huize.qixin.api.resp.product;
 
-import com.huize.qixin.api.resp.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.InsureAttribute;
+import com.huize.qixin.api.resp.BaseResp;
 
 public class ProductInsureAttrResp extends BaseResp
 {

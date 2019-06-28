@@ -1,6 +1,6 @@
 package com.huize.qixin.api.req.order;
 
-import com.huize.qixin.api.req.*;
+import com.huize.qixin.api.req.PageReq;
 
 public class SummaryOrderReq extends PageReq
 {

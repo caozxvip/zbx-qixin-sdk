@@ -1,7 +1,7 @@
 package com.huize.qixin.api.resp.special;
 
-import com.huize.qixin.api.resp.*;
-import com.fasterxml.jackson.annotation.*;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.huize.qixin.api.resp.BaseResp;
 
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class TemporaryResp extends BaseResp

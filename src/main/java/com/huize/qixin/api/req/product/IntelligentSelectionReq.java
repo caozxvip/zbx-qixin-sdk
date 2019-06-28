@@ -1,7 +1,8 @@
 package com.huize.qixin.api.req.product;
 
-import com.huize.qixin.api.req.*;
-import java.util.*;
+import java.util.List;
+import java.util.Map;
+import com.huize.qixin.api.req.BaseReq;
 
 public class IntelligentSelectionReq extends BaseReq
 {

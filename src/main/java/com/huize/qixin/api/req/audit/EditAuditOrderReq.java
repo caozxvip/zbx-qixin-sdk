@@ -1,8 +1,11 @@
 package com.huize.qixin.api.req.audit;
 
-import com.huize.qixin.api.req.*;
-import java.util.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.Insurant;
+import com.huize.qixin.api.model.info.Applicant;
+import com.huize.qixin.api.model.info.TrailPremiumParam;
+import com.huize.qixin.api.model.info.AuditFileInfo;
+import java.util.List;
+import com.huize.qixin.api.req.BaseReq;
 
 public class EditAuditOrderReq extends BaseReq
 {

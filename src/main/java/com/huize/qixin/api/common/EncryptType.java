@@ -2,7 +2,7 @@ package com.huize.qixin.api.common;
 
 public enum EncryptType
 {
-    INSURE_NUM(1, "\u6295\u4fdd\u5355\u53f7");
+    INSURE_NUM(1, "投保单号");
     
     private int index;
     private String desc;

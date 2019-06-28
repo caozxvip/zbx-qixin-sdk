@@ -1,8 +1,9 @@
 package com.huize.qixin.api.req.audit;
 
-import com.huize.qixin.api.req.*;
-import java.util.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.SmartAuditResult;
+import com.huize.qixin.api.model.info.SmartHealthInfo;
+import java.util.List;
+import com.huize.qixin.api.req.BaseReq;
 
 public class SaveSmartAuditResultReq extends BaseReq
 {

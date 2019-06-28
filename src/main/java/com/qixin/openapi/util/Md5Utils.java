@@ -1,9 +1,20 @@
 package com.qixin.openapi.util;
 
-import java.nio.channels.*;
-import java.nio.*;
-import java.io.*;
-import java.security.*;
+import java.security.NoSuchAlgorithmException;
+import java.io.UnsupportedEncodingException;
+import java.io.OutputStream;
+import java.io.ObjectOutputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.nio.MappedByteBuffer;
+import java.nio.ByteBuffer;
+import java.nio.channels.FileChannel;
+import java.io.FileInputStream;
+import java.io.File;
+import java.security.MessageDigest;
 
 public class Md5Utils
 {

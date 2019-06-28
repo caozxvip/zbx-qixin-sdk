@@ -1,7 +1,7 @@
 package com.huize.qixin.api.req.audit;
 
-import com.huize.qixin.api.req.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.TrailPremiumParam;
+import com.huize.qixin.api.req.BaseReq;
 
 public class CreatSmartAduitReq extends BaseReq
 {

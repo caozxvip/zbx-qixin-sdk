@@ -2,8 +2,8 @@ package com.huize.qixin.api.common;
 
 public enum UploadFileEnum
 {
-    SIGNATURE(Integer.valueOf(1), "\u7b7e\u540d\u6587\u4ef6", "png"), 
-    LOAN(Integer.valueOf(2), "\u8d37\u6b3e\u5408\u540c", "");
+    SIGNATURE(Integer.valueOf(1), "签名文件", "png"), 
+    LOAN(Integer.valueOf(2), "贷款合同", "");
     
     private Integer type;
     private String desc;

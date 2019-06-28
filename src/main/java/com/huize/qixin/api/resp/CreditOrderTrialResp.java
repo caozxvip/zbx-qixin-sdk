@@ -1,6 +1,6 @@
 package com.huize.qixin.api.resp;
 
-import com.huize.qixin.api.resp.trial.*;
+import com.huize.qixin.api.resp.trial.SimpleTrialResp;
 
 public class CreditOrderTrialResp extends SimpleTrialResp
 {

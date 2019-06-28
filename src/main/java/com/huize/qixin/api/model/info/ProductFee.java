@@ -1,7 +1,7 @@
 package com.huize.qixin.api.model.info;
 
-import com.fasterxml.jackson.annotation.*;
-import java.util.*;
+import java.util.List;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class ProductFee

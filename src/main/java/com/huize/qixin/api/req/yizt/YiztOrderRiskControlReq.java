@@ -1,6 +1,6 @@
 package com.huize.qixin.api.req.yizt;
 
-import com.huize.qixin.api.req.*;
+import com.huize.qixin.api.req.BaseReq;
 
 public class YiztOrderRiskControlReq extends BaseReq
 {

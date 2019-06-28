@@ -1,7 +1,7 @@
 package com.huize.qixin.api.req.file;
 
-import com.huize.qixin.api.req.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.FileInfo;
+import com.huize.qixin.api.req.BaseReq;
 
 public class UploadFileReq extends BaseReq
 {

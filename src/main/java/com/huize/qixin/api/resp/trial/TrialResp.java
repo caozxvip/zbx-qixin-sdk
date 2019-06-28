@@ -1,9 +1,11 @@
 package com.huize.qixin.api.resp.trial;
 
-import com.huize.qixin.api.resp.*;
-import com.fasterxml.jackson.annotation.*;
-import java.util.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.TrailPremiumParam;
+import com.huize.qixin.api.model.info.ProtectItem;
+import com.huize.qixin.api.model.info.RestrictGene;
+import java.util.List;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.huize.qixin.api.resp.BaseResp;
 
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class TrialResp extends BaseResp

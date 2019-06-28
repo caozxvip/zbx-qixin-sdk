@@ -1,8 +1,11 @@
 package com.huize.qixin.api.model.info;
 
-import com.fasterxml.jackson.annotation.*;
-import java.util.*;
-import com.huize.qixin.api.model.*;
+import com.huize.qixin.api.model.Other;
+import com.huize.qixin.api.model.EnsureProject;
+import com.huize.qixin.api.model.Insurant;
+import java.util.List;
+import com.huize.qixin.api.model.Applicant;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class OrderDetail

@@ -1,9 +1,9 @@
 package com.huize.qixin.api.resp.health;
 
-import com.huize.qixin.api.resp.*;
-import com.fasterxml.jackson.annotation.*;
-import java.util.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.HealthyModule;
+import java.util.List;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.huize.qixin.api.resp.BaseResp;
 
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class HealthStatementResp extends BaseResp

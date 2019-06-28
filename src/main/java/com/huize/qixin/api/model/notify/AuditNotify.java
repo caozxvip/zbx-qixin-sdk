@@ -1,6 +1,6 @@
 package com.huize.qixin.api.model.notify;
 
-import com.fasterxml.jackson.annotation.*;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class AuditNotify extends BaseNotify

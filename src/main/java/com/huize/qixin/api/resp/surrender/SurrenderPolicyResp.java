@@ -1,6 +1,6 @@
 package com.huize.qixin.api.resp.surrender;
 
-import com.huize.qixin.api.resp.*;
+import com.huize.qixin.api.resp.BaseResp;
 
 public class SurrenderPolicyResp extends BaseResp
 {

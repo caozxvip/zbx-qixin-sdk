@@ -1,7 +1,7 @@
 package com.huize.qixin.api.model.info;
 
-import java.util.*;
-import com.huize.qixin.api.model.*;
+import com.huize.qixin.api.model.EnsureProject;
+import java.util.List;
 
 public class InsureDetail extends OrderDetail
 {

@@ -1,8 +1,8 @@
 package com.huize.qixin.api.req.trial;
 
-import com.huize.qixin.api.req.*;
-import java.io.*;
-import java.util.*;
+import java.util.Map;
+import java.io.Serializable;
+import com.huize.qixin.api.req.BaseReq;
 
 public class SimpleTrialReq extends BaseReq implements Serializable
 {

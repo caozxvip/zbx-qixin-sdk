@@ -1,6 +1,6 @@
 package com.huize.qixin.api.req.surrender;
 
-import com.huize.qixin.api.req.*;
+import com.huize.qixin.api.req.BaseReq;
 
 public class SurrenderPolicyReq extends BaseReq
 {

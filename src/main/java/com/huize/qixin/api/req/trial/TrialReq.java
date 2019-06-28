@@ -1,9 +1,9 @@
 package com.huize.qixin.api.req.trial;
 
-import com.huize.qixin.api.req.*;
-import java.io.*;
-import java.util.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.GeneParam;
+import java.util.List;
+import java.io.Serializable;
+import com.huize.qixin.api.req.BaseReq;
 
 public class TrialReq extends BaseReq implements Serializable
 {

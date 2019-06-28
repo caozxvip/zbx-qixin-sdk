@@ -1,8 +1,8 @@
 package com.huize.qixin.api.resp.alasan;
 
-import com.huize.qixin.api.resp.*;
-import java.util.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.InsureAbstract;
+import java.util.List;
+import com.huize.qixin.api.resp.BaseResp;
 
 public class QueryInsureByInsurantResp extends BaseResp
 {

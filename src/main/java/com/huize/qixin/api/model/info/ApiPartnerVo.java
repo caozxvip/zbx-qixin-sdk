@@ -1,7 +1,8 @@
 package com.huize.qixin.api.model.info;
 
-import java.io.*;
-import java.util.*;
+import java.util.List;
+import java.util.Date;
+import java.io.Serializable;
 
 public class ApiPartnerVo implements Serializable
 {

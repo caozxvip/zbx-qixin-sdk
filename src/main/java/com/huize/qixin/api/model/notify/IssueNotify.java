@@ -1,6 +1,6 @@
 package com.huize.qixin.api.model.notify;
 
-import java.util.*;
+import java.util.List;
 
 public class IssueNotify extends BaseNotify
 {

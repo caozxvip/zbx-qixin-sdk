@@ -1,7 +1,7 @@
 package com.huize.qixin.api.req.pay;
 
-import com.huize.qixin.api.req.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.ExpressInfo;
+import com.huize.qixin.api.req.BaseReq;
 
 public class BasePayReq extends BaseReq
 {

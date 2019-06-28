@@ -1,10 +1,23 @@
 package com.huize.qixin.api.util;
 
-import java.security.*;
-import java.net.*;
-import java.io.*;
-import java.security.cert.*;
-import javax.net.ssl.*;
+import javax.net.ssl.SSLSession;
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
+import javax.net.ssl.X509TrustManager;
+import java.io.InputStream;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.HttpURLConnection;
+import javax.net.ssl.HostnameVerifier;
+import javax.net.ssl.KeyManager;
+import java.security.SecureRandom;
+import javax.net.ssl.TrustManager;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.HttpsURLConnection;
+import java.net.URL;
 
 public class HttpUtil
 {

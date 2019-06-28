@@ -1,8 +1,8 @@
 package com.huize.qixin.api.resp.product;
 
-import com.huize.qixin.api.resp.*;
-import java.util.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.AreaInfo;
+import java.util.List;
+import com.huize.qixin.api.resp.BaseResp;
 
 public class ProductInsuredAreaResp extends BaseResp
 {

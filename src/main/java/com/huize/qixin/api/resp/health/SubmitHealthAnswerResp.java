@@ -1,7 +1,7 @@
 package com.huize.qixin.api.resp.health;
 
-import com.huize.qixin.api.resp.*;
-import java.util.*;
+import java.util.List;
+import com.huize.qixin.api.resp.BaseResp;
 
 public class SubmitHealthAnswerResp extends BaseResp
 {

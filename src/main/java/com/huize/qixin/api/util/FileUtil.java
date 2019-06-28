@@ -1,7 +1,11 @@
 package com.huize.qixin.api.util;
 
-import java.net.*;
-import java.io.*;
+import java.io.OutputStream;
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
+import java.io.DataInputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 public class FileUtil
 {
@@ -18,7 +22,7 @@ public class FileUtil
         urlCon.setReadTimeout(6000);
         final int code = urlCon.getResponseCode();
         if (code != 200) {
-            throw new Exception("\u6587\u4ef6\u8bfb\u53d6\u5931\u8d25");
+            throw new Exception("文件读取失败");
         }
         final DataInputStream in = new DataInputStream(urlCon.getInputStream());
         final DataOutputStream out = new DataOutputStream(new FileOutputStream(fileLocal));

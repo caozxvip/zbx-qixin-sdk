@@ -1,6 +1,6 @@
 package com.huize.qixin.api.req.trial;
 
-import com.huize.qixin.api.req.*;
+import com.huize.qixin.api.req.BaseReq;
 
 public class DefaultTrialReq extends BaseReq
 {

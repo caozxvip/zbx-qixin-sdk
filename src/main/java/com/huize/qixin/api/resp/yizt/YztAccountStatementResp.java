@@ -1,8 +1,8 @@
 package com.huize.qixin.api.resp.yizt;
 
-import com.huize.qixin.api.resp.*;
-import java.util.*;
-import com.huize.qixin.api.model.info.*;
+import com.huize.qixin.api.model.info.YztAccountStatement;
+import java.util.List;
+import com.huize.qixin.api.resp.BaseResp;
 
 public class YztAccountStatementResp extends BaseResp
 {
