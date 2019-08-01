@@ -9,7 +9,7 @@ public class Deal {
 
     private int dealid;
     private int itemid;
-    private int channelid;
+    private String channelid;
     private String channeluserid;
     private String subagent;
     private String SubagentID;
@@ -34,11 +34,11 @@ public class Deal {
         this.itemid = itemid;
     }
 
-    public int getChannelid() {
+    public String getChannelid() {
         return channelid;
     }
 
-    public void setChannelid(int channelid) {
+    public void setChannelid(String channelid) {
         this.channelid = channelid;
     }
 
