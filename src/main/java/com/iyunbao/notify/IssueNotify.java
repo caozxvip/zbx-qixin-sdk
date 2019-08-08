@@ -25,7 +25,7 @@ public class IssueNotify {
     private String insureData;
     private String payment;
     private String expires;
-    private String amount;
+    private BigDecimal amount;
     private String partnerTag;
     private String insurantName;
     private String insurantGender;
@@ -163,11 +163,11 @@ public class IssueNotify {
         this.expires = expires;
     }
 
-    public String getAmount() {
+    public BigDecimal getAmount() {
         return amount;
     }
 
-    public void setAmount(String amount) {
+    public void setAmount(BigDecimal amount) {
         this.amount = amount;
     }
 
