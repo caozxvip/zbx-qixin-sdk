@@ -11,10 +11,10 @@ public class Policy {
     private String companyName;
     private String name;
     private String versionName;
-    private int prem;
-    private int coverage;
-    private int begtime;
-    private int endtime;
+    private long prem;
+    private long coverage;
+    private long begtime;
+    private long endtime;
     private String payYears;
     private String payYearsType;
     private String payType;
@@ -52,35 +52,35 @@ public class Policy {
         this.versionName = versionName;
     }
 
-    public int getPrem() {
+    public long getPrem() {
         return prem;
     }
 
-    public void setPrem(int prem) {
+    public void setPrem(long prem) {
         this.prem = prem;
     }
 
-    public int getCoverage() {
+    public long getCoverage() {
         return coverage;
     }
 
-    public void setCoverage(int coverage) {
+    public void setCoverage(long coverage) {
         this.coverage = coverage;
     }
 
-    public int getBegtime() {
+    public long getBegtime() {
         return begtime;
     }
 
-    public void setBegtime(int begtime) {
+    public void setBegtime(long begtime) {
         this.begtime = begtime;
     }
 
-    public int getEndtime() {
+    public long getEndtime() {
         return endtime;
     }
 
-    public void setEndtime(int endtime) {
+    public void setEndtime(long endtime) {
         this.endtime = endtime;
     }
 

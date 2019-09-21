@@ -13,7 +13,7 @@ public class NotifyHeader {
 
     private int dealid;
 
-    private int time;
+    private long time;
 
     public int getType() {
         return type;
@@ -39,11 +39,11 @@ public class NotifyHeader {
         this.dealid = dealid;
     }
 
-    public int getTime() {
+    public long getTime() {
         return time;
     }
 
-    public void setTime(int time) {
+    public void setTime(long time) {
         this.time = time;
     }
 }

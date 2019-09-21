@@ -7,30 +7,30 @@ package com.nbao.model.info;
  **/
 public class Deal {
 
-    private int dealid;
-    private int itemid;
+    private long dealid;
+    private long itemid;
     private String channelid;
     private String channeluserid;
     private String subagent;
     private String SubagentID;
     private String policyUrl;
-    private int addtime;
-    private int paytime;
-    private int payment;
+    private long addtime;
+    private long paytime;
+    private long payment;
 
-    public int getDealid() {
+    public long getDealid() {
         return dealid;
     }
 
-    public void setDealid(int dealid) {
+    public void setDealid(long dealid) {
         this.dealid = dealid;
     }
 
-    public int getItemid() {
+    public long getItemid() {
         return itemid;
     }
 
-    public void setItemid(int itemid) {
+    public void setItemid(long itemid) {
         this.itemid = itemid;
     }
 
@@ -74,27 +74,27 @@ public class Deal {
         this.policyUrl = policyUrl;
     }
 
-    public int getAddtime() {
+    public long getAddtime() {
         return addtime;
     }
 
-    public void setAddtime(int addtime) {
+    public void setAddtime(long addtime) {
         this.addtime = addtime;
     }
 
-    public int getPaytime() {
+    public long getPaytime() {
         return paytime;
     }
 
-    public void setPaytime(int paytime) {
+    public void setPaytime(long paytime) {
         this.paytime = paytime;
     }
 
-    public int getPayment() {
+    public long getPayment() {
         return payment;
     }
 
-    public void setPayment(int payment) {
+    public void setPayment(long payment) {
         this.payment = payment;
     }
 }
